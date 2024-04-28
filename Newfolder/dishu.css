@@ -617,7 +617,9 @@ h4 {
     color: #ff006e; /* Pink color from the palette */
   }
   
-
+.dishu1{
+  display: none;
+}
 
 .trrr {
   display: flex; /* Make the container itself a flexbox for better control */
@@ -759,11 +761,12 @@ justify-content: space-between;
     flex-direction: column;
   }
   .container-img1{
-    background-image: url("remove.png");
+    /* background-image: url("remove.png"); */
     scale: 1.7;
     margin: 1rem 5rem;
     display: flex;
     flex-direction: row-reverse;
+    display: none;
     justify-content: center;
 
   }
@@ -827,8 +830,7 @@ justify-content: space-between;
     border: 1px solid #000; /* boundary for body1 and body11 */
     padding: 0px;
     background-color: #00ff33 ;
-    margin: 5%;
-    margin-left : 2rem;
+    margin: 5% -8rem 5rem 2rem;
     background-image: url("content1.png");
     background-size: cover;
     height: 20rem;
@@ -844,8 +846,7 @@ justify-content: space-between;
     border: 1px solid #000; /* boundary for body1 and body11 */
     padding: 0px;
     background-color: #00ff33 ;
-    margin: 5%;
-    margin-left : 2rem;
+    margin: 5% -8rem 5rem 2rem;
     background-image: url("email.png");
     background-size: cover;
     height: 20rem;
@@ -862,8 +863,7 @@ justify-content: space-between;
     border: 1px solid #000; /* boundary for body1 and body11 */
     padding: 0px;
     background-color: #00ff33 ;
-    margin: 5%;
-    margin-left : 2rem;
+    margin: 5% -8rem 5rem -2rem;
     background-image: url("wordpress.png");
     background-size: cover;
     height: 20rem;
@@ -879,6 +879,18 @@ justify-content: space-between;
     bottom: 0.1rem;
     position: fixed;
   }
-  
+  .foot_logo{
+    height: 13rem;
+    width: 13rem;
+  }
+  .dishu1{
+    display: flex;
+    margin: -2rem -5rem;
+    z-index: 1;
+    font-size: larger;
+    font-weight: 900  ;
+    color: orange;
+  }
+
 }
 }
