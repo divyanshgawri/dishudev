@@ -20,5 +20,6 @@ from innovify_app import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('',views.index,name='index'),
-    path('signup',views.signup,name='signup')
+    path('signup',views.signup,name='signup'),
+    path('pricing',views.pricing,name='pricing')
 ]
