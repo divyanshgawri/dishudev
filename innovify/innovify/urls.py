@@ -19,5 +19,6 @@ from django.urls import path
 from innovify_app import views
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('',views.index,name='index')
+    path('',views.index,name='index'),
+    path('signup',views.signup,name='signup')
 ]
